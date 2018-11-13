@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+  "parameters": {
+    "FortiManagerName": {
+      "value": "VMXPNTWKA01I"
+    },
+    "adminUsername": {
+      "value": "cogditnetwork"
+    },
+    "adminPassword": {
+      "value": "F0rt!manager"
+    },
+    "FortiManagerImageVersion": {
+      "value": "6.0.0"
+    },
+    "instanceType": {
+      "value": "Standard_D2_v3"
+    },
+    "publicIPAddressName": {
+      "value": "FortiManager-PublicIP"
+    },
+    "publicIPAddressType": {
+      "value": "Static"
+    },
+    "publicIPNewOrExistingOrNone": {
+      "value": "none"
+    },
+    "publicIPResourceGroup": {
+      "value": "HSER-153"
+    },
+    "location": {
+      "value": "westeurope"
+    },
+    "vnetNewOrExisting": {
+      "value": "existing"
+    },
+    "vnetName": {
+      "value": "VnPEu201"
+    },
+    "vnetResourceGroup": {
+      "value": "HSER-153"
+    },
+    "vnetAddressPrefixes": {
+      "value": [
+        "10.39.8.0/21"
+      ]
+    },
+    "subnetName": {
+      "value": "SnPPube01"
+    },
+    "subnetPrefix": {
+      "value": "10.39.15.0/26"
+    },
+    "availabilitySets": {
+      "value": "AsPNtwkA01"
+    }
+  }
+}
