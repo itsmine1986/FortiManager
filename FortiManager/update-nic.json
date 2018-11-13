@@ -27,7 +27,7 @@
     "variables": {
       "NICwPIP": [
         {
-          "name": "ipconfig1",
+          "name": "NcVMXPNTWKA01I01IP",
           "properties": {
             "privateIPAllocationMethod": "Static",
             "privateIPAddress": "[parameters('privateIp')]",
