@@ -118,7 +118,7 @@
     },
     "ArtifactsBaseURI": {
       "type": "string",
-      "defaultValue": "https://gallery.azure.com/artifact/20151001/fortinet.fortimanagerfortimanager.1.0.9/Artifacts",
+      "defaultValue": "https://raw.githubusercontent.com/itsmine1986/FortiManager/master/FortiManager/nested%20template",
       "metadata": {
         "description": "Base URL of the solution template gallery package",
         "artifactsBaseUrl": ""
