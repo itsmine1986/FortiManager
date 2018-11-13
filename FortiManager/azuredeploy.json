@@ -360,7 +360,8 @@
           },
           "osDisk": {
             "name": "MdOVMXPNTWKA01I01",
-            "createOption": "FromImage"
+            "createOption": "FromImage",
+            "diskSizeGB": 100
           },
           "dataDisks": [
             {
@@ -396,6 +397,7 @@
       },
       "tags": {
         "Application Service": "NtwkA",
+        "provider": "[toUpper(parameters('FortinetTags').provider)]",
         "Deployment": "ARM",
         "Environment": "Prod"
       },
