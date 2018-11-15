@@ -29,8 +29,7 @@
         {
           "name": "NcVMXPNTWKA01I01IP",
           "properties": {
-            "privateIPAllocationMethod": "Static",
-            "privateIPAddress": "10.39.15.5",
+            "privateIPAllocationMethod": "Dynamic",
             "subnet": {
               "id": "[parameters('SubnetRef')]"
             },
@@ -45,8 +44,7 @@
         {
           "name": "NcVMXPNTWKA01I01IP",
           "properties": {
-            "privateIPAllocationMethod": "Static",
-            "privateIPAddress": "10.39.15.5",
+            "privateIPAllocationMethod": "Dynamic",
             "subnet": {
               "id": "[parameters('SubnetRef')]"
             }
