@@ -27,7 +27,7 @@
     "variables": {
       "NICwPIP": [
         {
-          "name": "NcVMXPNTWKA02I01IP",
+          "name": "NcVMXPNTWKA01I01IP",
           "properties": {
             "privateIPAllocationMethod": "Dynamic",
             "subnet": {
@@ -42,7 +42,7 @@
   
       "NICwoPIP": [
         {
-          "name": "NcVMXPNTWKA02I01IP",
+          "name": "NcVMXPNTWKA01I01IP",
           "properties": {
             "privateIPAllocationMethod": "Dynamic",
             "subnet": {
